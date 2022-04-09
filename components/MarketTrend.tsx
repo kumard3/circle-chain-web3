@@ -7,6 +7,18 @@ export default function MarketTrend() {
     "eth-icon.png",
     "bnb-icon.png",
     "usdt-icon.png",
+    "bitcoin-icon.png",
+    "eth-icon.png",
+    "bnb-icon.png",
+    "usdt-icon.png",
+    "bitcoin-icon.png",
+    "eth-icon.png",
+    "bnb-icon.png",
+    "usdt-icon.png",
+    "bitcoin-icon.png",
+    "eth-icon.png",
+    "bnb-icon.png",
+    "usdt-icon.png",
   ];
   return (
     <div className="container mx-auto flex flex-col items-center justify-center">
