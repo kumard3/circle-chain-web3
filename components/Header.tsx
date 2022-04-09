@@ -2,21 +2,21 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex items-center relative container mx-auto py-10 justify-around">
+    <div className="flex items-center relative container mx-auto py-10 justify-around flex-wrap">
       <div className="absolute inset-0 bg-[#73FDAA] w-32 h-32 rounded-full blur-2xl "></div>
-      <div className="max-w-xl relative">
-        <h1 className="text-6xl font-bold ">
+      <div className="max-w-xl relative text-center sm:text-left px-3">
+        <h1 className="text-4xl sm:text-6xl font-bold ">
           Save, Buy and Sell Your blockchain asset
         </h1>
-        <p className="text-3xl py-10">
+        <p className="text-lg font-mono sm:text-3xl py-10">
           The easy to manage and trade your cryptocurency asset
         </p>
 
-        <div>
-          <button className="bg-[#BBFFFF] font-bold mr-3 text-black px-10 py-3 rounded-lg">
+        <div className="flex justify-center items-center flex-col sm:flex-row">
+          <button className="bg-[#BBFFFF] my-3 font-bold sm:mr-3 w-[215px] h-[53px] text-black rounded-lg">
             Connect Wallet
           </button>
-          <button className="text-black mx-3 px-10 py-3 rounded-lg font-bold bg-white">
+          <button className="text-black mx-3 w-[215px] h-[53px] rounded-lg font-bold bg-white">
             Start Trading
           </button>
         </div>

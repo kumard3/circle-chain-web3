@@ -22,7 +22,7 @@ export default function MarketTrend() {
   ];
   return (
     <div className="container mx-auto flex flex-col items-center justify-center">
-      <h1>MarketTrend</h1>
+      <h1 className="text-5xl py-4 font-bold">Market Trend</h1>
       <div className="grid xl:grid-cols-4 gap-5 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
         {imageData.map((n, index) => {
           return <Card img={n} key={index} />;

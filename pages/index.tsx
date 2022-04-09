@@ -8,7 +8,7 @@ import Nav from "../components/Nav";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen py-10">
+    <div className="bg-black text-white min-h-screen ">
       <Nav />
       <Header />
       <InfoSection />
