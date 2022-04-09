@@ -27,7 +27,28 @@ export default function Nav() {
           aria-label="Back to homepage"
           className="flex items-center p-2"
         >
-          <img src="circlechain-logo.png" alt="alt" />
+          <svg
+            width="58"
+            height="58"
+            viewBox="0 0 58 58"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="10" cy="10" r="10" fill="white" />
+            <circle cx="10" cy="48" r="10" fill="white" />
+            <circle cx="48" cy="48" r="10" fill="white" />
+            <circle cx="48" cy="10" r="10" fill="white" />
+            <path d="M42 10H15" stroke="white" strokeWidth="3" />
+            <path d="M12 16V42" stroke="white" strokeWidth="3" />
+            <path d="M15 49H44" stroke="white" strokeWidth="3" />
+            <path
+              d="M49 44V29"
+              stroke="white"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
+          </svg>
+
           <h1 className="text-3xl sm:text-4xl font-bold">Circlechain</h1>
         </a>
         <ul className="items-stretch hidden space-x-3 lg:flex text-xl font-bold">
@@ -61,10 +82,34 @@ export default function Nav() {
           <button className="self-center px-8 py-3 font-semibold rounded bg-blue-600 text-white">
             Sign up
           </button> */}
-          <img src="logo1.png" alt="alt" width="30" height="30" className="mx-3" />
-          <img src="logo2.png" alt="alt" width="30" height="30" className="mx-3" />
-          <img src="logo3.png" alt="alt" width="30" height="30" className="mx-3" />
-          <img src="logo4.png" alt="alt" width="30" height="30" className="mx-3" />
+          <img
+            src="logo1.png"
+            alt="alt"
+            width="30"
+            height="30"
+            className="mx-3"
+          />
+          <img
+            src="logo2.png"
+            alt="alt"
+            width="30"
+            height="30"
+            className="mx-3"
+          />
+          <img
+            src="logo3.png"
+            alt="alt"
+            width="30"
+            height="30"
+            className="mx-3"
+          />
+          <img
+            src="logo4.png"
+            alt="alt"
+            width="30"
+            height="30"
+            className="mx-3"
+          />
         </div>
 
         <button className="p-4 lg:hidden">

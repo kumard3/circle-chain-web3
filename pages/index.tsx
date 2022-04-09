@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/link-passhref */
 import Link from "next/link";
 import * as React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import InfoSection from "../components/infoSection";
 import MarketTrend from "../components/MarketTrend";
@@ -15,6 +16,7 @@ export default function Home() {
       <InfoSection />
       <MarketTrend />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
