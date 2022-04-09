@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import InfoSection from "../components/infoSection";
 import MarketTrend from "../components/MarketTrend";
 import Nav from "../components/Nav";
+import NewsLetter from "../components/NewsLetter";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <InfoSection />
       <MarketTrend />
+      <NewsLetter />
     </div>
   );
 }
